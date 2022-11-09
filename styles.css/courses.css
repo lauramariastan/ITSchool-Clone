@@ -1,0 +1,171 @@
+/* STILIZARE BAR */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav .container {
+    background-color: var(--bg-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-icon-container {
+    display: block;
+}
+
+ nav img {
+    width: auto;
+    height: 60px;
+ }
+
+
+nav .menu-icon {
+    color: var(--text-light);
+    display: none;
+}
+
+nav input[type="checkbox"] {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    font-size: var(--fs-small);
+    text-transform: uppercase;
+    color: var(--text-light);
+    padding: var(--spacing-medium);
+}
+
+nav .arrow-down-icon {
+    font-size: var(--fs-xl);
+    position: absolute;
+}
+
+
+/* STILIZARE WELCOME */
+.welcome {
+    background-color: var(--bg-primary);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome h1 {
+    text-align: center;
+}
+
+
+/* STILIZARE COURSES */
+.courses .container-grid {
+    padding: var(--spacing-medium) var(--spacing-small);
+}
+
+.courses h2, .courses .main-paragraph {
+    text-align: center;
+    margin-bottom: var(--spacing-large);
+}
+
+.courses h2 {
+    padding-top: var(--spacing-large);
+}
+
+.courses .main-paragraph {
+    font-size: var(--fs-medium);
+}
+
+.courses .courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: var(--spacing-large);
+}
+
+.courses .courses-wrapper {
+    width: calc(100% / 3);
+    padding-right: var(--spacing-small);
+    padding-left: var(--spacing-small);
+}
+
+.courses .course {
+    width: 100%;
+    padding: var(--spacing-tiny);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: var(--spacing-medium);
+}
+
+.courses .content {
+    padding: 0 var(--spacing-small);
+}
+
+.courses .presentation-image {
+    height: auto;
+    width: 100%;
+    margin-bottom: var(--spacing-large);
+}
+
+.courses .microsoft-logo {
+    height: auto;
+    width: 80px;
+    vertical-align: middle;
+    margin-left: var(--spacing-small);
+}
+
+.courses h3 {
+    color: var(--text-primary);
+    margin-top: var(--spacing-medium);
+    margin-bottom: var(--spacing-medium);
+}
+
+.courses .courses-container .certification, .details {
+    font-size: var(--fs-medium);
+    color: #666;
+}
+
+.courses .details {
+    margin-top: var(--spacing-medium);
+    margin-bottom: var(--spacing-medium);
+}
+
+.courses span .material-icons {
+    vertical-align: middle;
+    font-size: var(--fs-medium);
+}
+
+.courses a {
+    font-size: var(--fs-medium);
+    text-align: center;
+    color: var(--text-white);
+    background-color: var(--button-color);
+    border: 1px solid var(--button-color);
+    border-radius: 5px;
+    padding: var(--spacing-tiny);
+    width: 100px;
+    margin-top: var(--spacing-medium);
+}
+
+
+/* STILIZARE FOOTER */
+
+footer {
+    display: block;
+    background-color: var(--bg-dark);
+}
+
+footer .container {
+    display: block;
+}
+
+footer p {
+    color: var(--bg-light);
+    text-align: center;
+    font-size: var(--fs-small);
+    padding: var(--spacing-medium) 0;
+}

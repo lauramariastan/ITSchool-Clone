@@ -1,0 +1,175 @@
+/* STILIZARE BAR */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav .container {
+    background-color: var(--bg-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-icon-container {
+    display: block;
+}
+
+ nav img {
+    width: auto;
+    height: 60px;
+ }
+
+nav .menu-icon {
+    color: var(--text-light);
+    display: none;
+}
+
+nav input[type="checkbox"] {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    font-size: var(--fs-small);
+    text-transform: uppercase;
+    color: var(--text-light);
+    padding: var(--spacing-medium);
+}
+
+nav .arrow-down-icon {
+    font-size: var(--fs-xl);
+    position: absolute;
+}
+
+
+/* STILIZARE WELCOME */
+.welcome {
+    background-color: var(--bg-primary);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome h1 {
+    text-align: center;
+}
+
+
+/* STILIZARE MAIN */
+.welcome {
+    background-color: var(--bg-primary);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome h1 {
+    text-align: center;
+}
+
+.contact h2 {
+    text-align: center;
+    padding-top: var(--spacing-large);
+    margin-bottom: var(--spacing-large);
+}
+
+.contact .main-paragraph {
+    margin-bottom: var(--spacing-large);
+}
+
+.contact .contact-wrapper {
+    display: flex;
+    margin-bottom: var(--spacing-large);
+}
+
+.contact .contact-wrapper p {
+    font-size: var(--fs-medium);
+}
+
+.contact li {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: var(--spacing-small);
+    margin-bottom: var(--spacing-large);
+    border-bottom: 1px solid #ddd;
+}
+
+.contact .material-icons {
+    vertical-align: middle;
+    color: var(--bg-primary);
+}
+
+.contact a, .contact .description {
+    color: #8e8e8e;
+    font-size: var(--fs-medium);
+}
+
+.contact ul, .contact form {
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing-medium);
+    width: 50%;
+}
+
+.contact label {
+    color: var(--text-dark);
+    font-size: var(--fs-medium);
+    margin-bottom: var(--spacing-tiny);
+}
+
+.contact input {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: var(--spacing-small);
+    margin-bottom: var(--spacing-medium);
+    color: var(--text-dark);
+    font-size: var(--fs-medium);
+}
+
+.contact textarea {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: var(--spacing-small);
+    margin-bottom: var(--spacing-medium);
+    font-family: inherit;
+    font-size: var(--fs-medium);
+    height: 100px;
+    color: var(--text-dark);
+}
+
+.contact input[type="submit"] {
+    font-size: var(--fs-medium);
+    text-align: center;
+    color: var(--text-white);
+    background-color: var(--button-color);
+    border: 1px solid var(--button-color);
+    border-radius: 5px;
+    padding: var(--spacing-small);
+    width: 100px;
+}
+
+
+/* STILIZARE FOOTER */
+
+footer {
+    display: block;
+    background-color: var(--bg-dark);
+}
+
+footer .container {
+    display: block;
+}
+
+footer p {
+    color: var(--bg-light);
+    text-align: center;
+    font-size: var(--fs-small);
+    padding: var(--spacing-medium) 0;
+}

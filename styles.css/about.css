@@ -1,0 +1,90 @@
+/* STILIZARE WELCOME */
+.welcome {
+    background-color: var(--bg-primary);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome h1 {
+    text-align: center;
+}
+
+/* STILIZARE MAIN */
+.trainers {
+    box-sizing: border-box;
+}
+
+.trainers .container .grid {
+    padding: var(--spacing-medium) var(--spacing-small);
+}
+
+.trainers .trainers-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: var(--spacing-large);
+}
+
+.trainer h3 {
+    width: 100%;
+    font-size: var(--fs-large);
+    font-weight: 400;
+    text-align: center;
+    background-color: rgba(20, 30, 76, 0.9);
+    border-radius: 5px;
+    padding: var(--spacing-tiny) 0;
+    margin-bottom: var(--spacing-medium);
+    margin-top: -25px;
+    z-index: 1;
+}
+
+.trainers .trainer-wrapper {
+    width: 25%;
+    padding: 0 var(--spacing-small);
+}
+
+.trainer img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+}
+
+.trainers .trainer {
+    width: 100%;
+    min-height: 350px;
+    padding: var(--spacing-small);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: calc(2 * var(--spacing-xl));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trainers .image-wrapper {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -70px;
+}
+
+
+/* STILIZARE FOOTER */
+
+footer {
+    display: block;
+    background-color: var(--bg-dark);
+}
+
+footer .container {
+    display: block;
+}
+
+footer p {
+    color: var(--bg-light);
+    text-align: center;
+    font-size: var(--fs-small);
+    padding: var(--spacing-medium) 0;
+}
